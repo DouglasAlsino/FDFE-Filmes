@@ -1,0 +1,38 @@
+/* Estilo base para a navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+/* Estilo para os itens da navbar */
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+/* Estilo para a parte esquerda da navbar */
+.nav-left {
+  display: flex;
+}
+
+/* Estilo para a parte direita da navbar */
+.nav-right {
+  display: flex;
+}
